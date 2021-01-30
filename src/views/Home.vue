@@ -14,7 +14,7 @@
             <h2 class="rickandmorty__name">
               {{char.name}}
             </h2>
-            <button class="btn">Подробнее</button>
+            <router-link tag="a" class="btn" :to="`/character/${char.id}`">More details</router-link>
           </div>
         </div>
       </div>
