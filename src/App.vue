@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <nav class="teal darken-1">
+      <div class="container nav-wrapper">
+        <router-link to="/" class="brand-logo">Rick and Morty</router-link>
+      </div>
+    </nav>
     <router-view/>
   </div>
 </template>
